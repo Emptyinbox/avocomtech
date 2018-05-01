@@ -1,82 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- Compiled and minified CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   <!-- Compiled and minified JavaScript -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Arimo|Work+Sans" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates|Quicksand" rel="stylesheet">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Avocom Tech</title>
 </head>
-<body>
 
-<!-- navbar -->
-<header class="main-header">
-  <div class="primary-overlay">
-    <div class="navbar-fixed">
-      <nav class="transparent">
-        <div class="container">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo">Avocom Tech</a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-              <li><a href="about.html">About</a></li>
-              <li><a href="services.html">Services</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+<body>
+  <header class="main-header">
+    <div class="primary-overlay">
+      <div class="navbar-fixed">
+        <nav class="transparent">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="#home" class="brand-logo blue-text">Avocom Tech</a>
+              <a href="#" data-activates="mobile-nav" class="button-collapse">
+                <i class="material-icons">menu</i>
+              </a>
+              <ul class="right hide-on-med-and-down">
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#services">Services</a>
+                </li>
+                <li>
+                  <a href="#products">Products</a>
+                </li>
+                <li>
+                  <a href="#contact" class="btn blue">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- Side nav -->
+      <ul class="side-nav" id="mobile-nav">
+        <h4 class="blue-grey darken-3 center">Avocom tech</h4>
+        <li>
+          <a class="divider"></a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#products">Products</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+      <!-- Showcase -->
+      <div class="showcase container">
+        <div class="row">
+          <div class="col s12 main-text">
+            <h5>You found the...</h5>
+            <h1>Right Place To Start</h1>
+            <p class="flow-text">To take your business communications to the next level. Handheld and portable radio services for the Sea to Sky Corridor.</p>
+            <br>
+            <a href="#about" class="btn btn-large  light-blue darken-3 white-text">Learn More</a>
+            <a href="#contact" class="white-text">
+              <i class="material-icons medium scroll-icon">arrow_drop_down_circle</i>
+            </a>
           </div>
         </div>
-        </nav>
+      </div>
     </div>
+  </header>
 
-<!-- Side Nav -->
-  <ul class="sidenav" id="mobile-demo">
-    li><a href="about.html">About</a></li>
-    <li><a href="services.html">Services</a></li>
-    <li><a href="products.html">Products</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-
-    <!-- showcase -->
-            <div class="showcase container">
-              <div class="row">
-                <div class="col s12 main-text">
-                  <h5>You found the...</h5>
-                  <h1>Right Place To Start</h1>
-                  <p class="flow-text">Servicing the Sea to Sky Corridor with Handheld and Portable Radio Communication Solutions.</p>
-                  <br>
-                  <a href="#about" class="btn btn-large indigo lighten-1 black-text">Learn More</a>
-                  <a href="#contact" class="white-text">
-                    <i class="material-icons medium scroll-icon">arrow_drop_down_circle</i>
-                  </a>
-                </div>
+  <!-- Section: Boxes -->
+  <section class="section-boxes center">
+    <div class="row">
+      <div class="col s12 m12 l4 blue darken-4 white-text box">
+        <i class="material-icons large">enhanced_encryption</i>
+        <h4>Private and Secure Communications</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut eaque et?</p>
+      </div>
+      <div class="col s12 m12 l4 blue lighten-3 white-text box">
+        <i class="material-icons large">gps_fixed</i>
+        <h4>GPS Inventory and Asset Tracking</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut eaque et?</p>
+      </div>
+      <div class="col s12 m12 l4 blue white-text box">
+        <i class="material-icons large">satellite</i>
+        <h4>Remote Radio, Internet and Telecom</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut eaque et?</p>
+      </div>
+      <!-- <div class="col s12 m6 l3 amber darken-4 white-text box">
+        <i class="material-icons medium">account_balance</i>
+        <h4>Multiply Your Income</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt qui ipsa suscipit amet culpa nisi fugiat in aut
+          eaque et?</p> -->
+    </div>
+    </div>
+  </section>
+  <!-- Section: Team -->
+  <section class="section-team center">
+    <h1>Meet the Team</h1>
+    <div class="row">
+      <div class="col s12 m12 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/people.jpg" alt="">
+            <span class="card-title">Carl Smith</span>
+          </div>
+          <div class="card-content">
+            <p class="flow-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <p class="orange-text flow-text">Founder</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/people.jpg" alt="">
+            <span class="card-title">Rich Doucet</span>
+          </div>
+          <div class="card-content">
+            <p class="flow-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <p class="orange-text flow-text">Founder</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/people.jpg" alt="">
+            <span class="card-title">James Dunnigan</span>
+          </div>
+          <div class="card-content">
+            <p class="flow-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <p class="orange-text flow-text">Founder</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m12 l3">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/people.jpg" alt="">
+            <span class="card-title">Carl Jr Smith</span>
+          </div>
+          <div class="card-content">
+            <p class="flow-text">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <p class="orange-text flow-text">Founder</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Hero-2 -->
+  <section class="section-hero-2 center-align ">
+    <div class="caption center-align">
+              <h2 class="text-orange">"Working with Avocom Tech was amazing!  They were able to solve our problems quickly and with no down time!"</h2>
+              <h3 class="right-align">Donald Trump</h3>
+            </div>
+  </section>
+  <!-- Section: Contact Form -->
+  <section class="section-contact center" id="contact">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input  id="first_name" type="text" class="validate">
+          <label for="first_name" class="white-text">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name" class="white-text">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">email</i>
+          <input id="email" type="email" class="validate">
+          <label for="email" class="white-text">Email</label>
+        </div>
+      </div>
+      <div class="row">
+    <div class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">note</i>
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1" class="white-text">Message</label>
+        </div>
+      </div>
+    </div>
+  </div>
+    </form>
+  </div>
+    </div>
+  </section>
+  <!-- Section: Footer -->
+  <footer class="page-footer blue-grey darken-3 ">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="light-blue-text text-darken-1">Footer Content</h5>
+                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quod quis officiis ducimus, architecto, quia, unde eveniet commodi, quam optio dolores vitae ipsum sint distinctio pariatur esse libero? Libero, nisi sunt maxime atque voluptatem fugit molestias rem ipsum recusandae, doloribus quam quia et corrupti dicta. Non sed, exercitationem quasi. Itaque.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="light-blue-text text-darken-1">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
               </div>
             </div>
-  </div>
-</header>
+          </div>
+          <div class="footer-copyright">
+            <div class="container light-blue-text text-darken-1">
+            © 2018 Avocom Tech
+
+            </div>
+          </div>
+        </footer>
 
 
-<!-- import jquery before materlize.js -->
+  <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="../js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
   <script>
-  // Init Side Nav
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
+    $(document).ready(function() {
+      // Init Sidenav
+      $('.button-collapse').sideNav();
 
-    // scrollfire
-    const options = [
-      {
-        selector: '.main-text'
-      }
-    ]
-  });
+      // ScrollFire
+      const options = [{
+          selector: '.main-text',
+          offset: 0,
+          callback: function(el) {
+            Materialize.fadeInImage($(el));
+          }
+        },
+        {
+          selector: '.navbar-fixed',
+          offset: 1500,
+          callback: function() {
+            $('nav').removeClass('transparent');
+            $('nav').addClass('blue-grey darken-3');
+            $('brand-logo').removeClass('blue-text');
+          }
+        }
+      ];
+
+      Materialize.scrollFire(options);
+
+    });
   </script>
 </body>
+
 </html>
